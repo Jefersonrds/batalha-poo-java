@@ -24,15 +24,24 @@ O chefao so ataca a cada 3 rodadas e com uma chance aleatoria de acerto
 Se o chefao estiver com pontos abaixo de 20, a chance de acertar um aleatorio e maior
 
 
-
 A cada acerto deve ser mostrado na tela do usuario o dano inflingido e o pontos restantes
 
 
 Diagrama de classes
-Personagem
-vida
-tipo
-poderes()
-ataqueEspecial()
 
+Personagem
+- nome: String
+- vida: int
+- tipo: String
++ receberDano(dano: int)
++ estarVivo(): boolean
+
+Chefao
+- chanceDeAcerto: double
+- calcularChance(): boolean
+
+
+Ataque
++ atacar()
++ usarAtaqueEspecial()
 
