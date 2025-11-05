@@ -1,0 +1,38 @@
+Personagens
+mago
+aventureiro
+Anao
+
+
+poderes
+mago: bola de fogo (dano 3)
+aventureiro: ataque de espada (dano 2)
+Anao: Tremor da terra (dano 7)
+
+Golpe especial:
+Ataque do trio (dano 20)
+
+Chefao:
+Colossus
+Ataque imperial (dano 30)
+
+logica
+A cada rodada os personagens podem fazer um ataque.
+A cada 3 rodadas os personagens lancao um golpe especial.
+
+O chefao so ataca a cada 3 rodadas e com uma chance aleatoria de acerto
+Se o chefao estiver com pontos abaixo de 20, a chance de acertar um aleatorio e maior
+
+
+
+A cada acerto deve ser mostrado na tela do usuario o dano inflingido e o pontos restantes
+
+
+Diagrama de classes
+Personagem
+vida
+tipo
+poderes()
+ataqueEspecial()
+
+
