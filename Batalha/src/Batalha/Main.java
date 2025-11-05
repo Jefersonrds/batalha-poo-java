@@ -2,6 +2,8 @@ package Batalha;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("teste");
+        Personagem mago = new Personagem("mago","mago");
+
+
     }
 }
